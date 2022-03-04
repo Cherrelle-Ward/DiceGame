@@ -3,28 +3,1034 @@
     <head>
     <meta charset="UTF-8">
     <title>Dice Game</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+
     <!-- CSS link -->
     <link rel="stylesheet" href="/style.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/87223529ad.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Roll The Dice</h1>
+    <div class="container">
+        
+<!-- FONT AWESOME ICONS -->
+<!-- background -->
+<section>
+    <!-- BOARD GAME SECTION -->
+<!-- <div class="board"> -->
+    <div class="heading">
+    <h1 >Roll The Dice</h1>
     <p>....if you're feeling lucky!</p>
+    </div>
+    <div class="box">
+    <!-- PLAYER ONE -->
+    <div id="container">
     <h2 id="score"></h2>
     <h2 id="scoreCounter"></h2>
-    <div id="container">
         <img id="dice">
+        
+        
     </div>
+    <!-- PLAYER TWO -->
+    <div id="container2">
     <h2 id="score2"></h2>
     <h2 id="scoreCounter2"></h2>
-    <div id="container">
-        <img id="dice">
+    <img id="dice2">
     </div>
-    <button id="roll"> PLAYER 1</button>
-    <button id="roll2"> PLAYER 2</button>
+    </div>
+    <div class="btn-design">
+    <button class="button-64" id="roll"> PLAY</button>
+</div>
+    <!-- <button id="roll2"> PLAYER 2</button> -->
+<!-- </div> -->
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
+    <div class="row">
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+        <div>
+<i class="fa-solid fa-dice-one"></i>
+<i class="fa-solid fa-dice-two"></i>
+<i class="fa-solid fa-dice-three"></i>
+<i class="fa-solid fa-dice-four"></i>
+<i class="fa-solid fa-dice-five"></i>
+<i class="fa-solid fa-dice-six"></i>
+<i class="fa-solid fa-dice-d20"></i>
+<i class="fa-solid fa-dice"></i>
+<i class="fa-solid fa-diamond"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-clover"></i>
+<i class="fa-solid fa-user-astronaut"></i>
+<i class="fa-solid fa-dollar-sign"></i>
+<i class="fa-brands fa-bitcoin"></i>
+<i class="fa-solid fa-piggy-bank"></i>   
+<i class="fa-solid fa-coins"></i>
+<i class="fa-solid fa-puzzle-piece"></i>
+<i class="fa-solid fa-person-dots-from-line"></i>
+<i class="fa-solid fa-building-columns"></i>
+<i class="fa-solid fa-champagne-glasses"></i>
+<i class="fa-solid fa-chess-queen"></i>
+    </div>
+    
+</div>
 
+</section>
 
-   
     <!-- JS link -->
     <script src="app.js"></script>
+</div>
 </body>
 </html>
